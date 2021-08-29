@@ -90,8 +90,8 @@ func main() {
 	defer f.Close()
 	log.SetOutput(f)
 
-	//dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
-	dir, err := filepath.Abs("/mnt/c/Users/aesop/Downloads/Eno")
+	// dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
+	dir, err := filepath.Abs("/Users/jack/dev/jackchw/resizeImage")
 	fmt.Println(dir)
 	if err != nil {
 		log.Fatal(err)
